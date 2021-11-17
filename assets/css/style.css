@@ -1,0 +1,32 @@
+body{
+  background-color: #000000;
+}
+
+.btn:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+#hidden_show_roulette {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.8s;
+  text-align: center;
+}
+#hidden_show_video {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.8s;
+  text-align: center;
+}
+.roulette {
+  display: inline-block;
+  /* border:1px solid #000000; */
+  color: #FFFFFF;
+  font-size:100px;
+  width:120px;
+}

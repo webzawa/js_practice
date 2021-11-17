@@ -1,0 +1,9 @@
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  text-align: center;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  text-align: center;
+  /*margin: 0 auto;*/
+}
+
