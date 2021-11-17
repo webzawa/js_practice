@@ -7,7 +7,7 @@ body{
     transform: translateY(4px);/*下に動く*/
     border-bottom: none;/*線を消す*/
 }
-#hidden_show_roulette {
+#hidden_show_roulette{
   height: 0;
   padding: 0;
   overflow: hidden;
@@ -24,9 +24,6 @@ body{
   text-align: center;
 }
 .roulette {
-  display: inline-block;
-  /* border:1px solid #000000; */
   color: #FFFFFF;
-  font-size:100px;
-  width:120px;
+  font-size:300px;
 }
